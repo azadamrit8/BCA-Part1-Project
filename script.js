@@ -19,8 +19,8 @@ document.body.style.background="#eeeeee";
 
 document.body.style.color="#111";
 
-
 this.innerHTML="☀️";
+
 
 dark=false;
 
@@ -34,12 +34,13 @@ document.body.style.background="#050816";
 
 document.body.style.color="white";
 
-
 this.innerHTML="🌙";
+
 
 dark=true;
 
 
 }
+
 
 }
