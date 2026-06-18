@@ -1,17 +1,13 @@
 *{
-
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Segoe UI;
-
+font-family:Segoe UI,sans-serif;
 }
 
 
 html{
-
 scroll-behavior:smooth;
-
 }
 
 
@@ -25,6 +21,7 @@ transition:.4s;
 
 
 
+
 .loader{
 
 position:fixed;
@@ -35,9 +32,10 @@ display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
-z-index:999;
+z-index:9999;
 
 }
+
 
 
 .loader h1{
@@ -51,9 +49,8 @@ font-size:50px;
 .loader div{
 
 width:150px;
-height:5px;
+height:6px;
 background:#00f5ff;
-margin-top:20px;
 animation:load 1s infinite;
 
 }
@@ -73,11 +70,11 @@ transform:scaleX(.2);
 header{
 
 position:fixed;
-top:0;
 width:100%;
+top:0;
 background:#0009;
 backdrop-filter:blur(15px);
-z-index:10;
+z-index:100;
 
 }
 
@@ -101,13 +98,15 @@ color:#00f5ff;
 }
 
 
+
 nav ul{
 
 display:flex;
-gap:25px;
+gap:22px;
 list-style:none;
 
 }
+
 
 
 nav a{
@@ -125,9 +124,11 @@ padding:14px 30px;
 border:none;
 border-radius:30px;
 background:#00f5ff;
+cursor:pointer;
 font-weight:bold;
 
 }
+
 
 
 
@@ -137,7 +138,6 @@ padding:110px 10%;
 text-align:center;
 
 }
-
 
 
 
@@ -166,6 +166,7 @@ color:transparent;
 
 
 
+
 .hero-image img{
 
 width:420px;
@@ -176,7 +177,6 @@ border-radius:30px;
 box-shadow:0 0 40px #00f5ff;
 
 }
-
 
 
 
@@ -194,6 +194,7 @@ flex-wrap:wrap;
 
 
 
+
 .card,
 .stats div{
 
@@ -201,7 +202,6 @@ width:280px;
 padding:25px;
 border-radius:25px;
 background:#ffffff15;
-
 transition:.3s;
 
 }
@@ -217,16 +217,16 @@ box-shadow:0 0 30px #00f5ff;
 
 
 
+
+
 .card img{
 
 width:100%;
 height:180px;
 object-fit:cover;
 border-radius:20px;
-margin-bottom:15px;
 
 }
-
 
 
 
@@ -236,6 +236,7 @@ font-size:50px;
 color:#00f5ff;
 
 }
+
 
 
 
@@ -256,6 +257,7 @@ font-size:40px;
 
 
 
+
 form{
 
 max-width:500px;
@@ -272,10 +274,9 @@ input,textarea{
 
 padding:15px;
 border-radius:15px;
-border:none;
-
 background:#111;
 color:white;
+border:none;
 
 }
 
@@ -283,9 +284,9 @@ color:white;
 
 footer{
 
-text-align:center;
 padding:40px;
-background:black;
+background:#000;
+text-align:center;
 
 }
 
@@ -298,6 +299,8 @@ font-size:25px;
 margin:15px;
 
 }
+
+
 
 
 
